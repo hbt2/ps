@@ -142,7 +142,7 @@ Function Get-ForecaInari ([ref]$Result)
         "$BasePath\SetWeatherForecastWallpaper\forecacom_100656657.bmp"
 
     $LegacyPath = `
-        '\\kp\a\tmp\weather\forecast inari (foreca.com).png'
+        '\\contoso-old\share\weather\forecast inari (foreca.com).png'
 
     $r = @()
 
@@ -196,7 +196,7 @@ Function Get-YrnoRayakoski ([ref]$Result)
         "$BasePath\Прогноз погоды (Раякоски) (yr.no).png"
 
     $LegacyPath = `
-        '\\kp\a\tmp\weather\forecast rayakoski (yr.no).pdf'
+        '\\contoso-old\share\weather\forecast rayakoski (yr.no).pdf'
 
     $r = @()
 
@@ -282,7 +282,7 @@ Function Get-YrnoInari ([ref]$Result)
         "$BasePath\Прогноз погоды (Инари) (yr.no).png"
 
     $LegacyPath = `
-        '\\kp\a\tmp\weather\forecast inari (yr.no).pdf'
+        '\\contoso-old\share\weather\forecast inari (yr.no).pdf'
 
     $r = @()
 
