@@ -10,9 +10,9 @@
 Пример:
 
 ```
-152384 06:28:50.9218750s - ---------- Log File Opened -----------------  
-152384 06:28:50.9218750s - Entered W32TmServiceMain W2K3SP1  
-152384 06:28:50.9218750s - CurSpc:15625000ns  BaseSpc:15625000ns  SyncToCmos:Yes  
+152384 06:28:50.9218750s - ---------- Log File Opened -----------------
+152384 06:28:50.9218750s - Entered W32TmServiceMain W2K3SP1
+152384 06:28:50.9218750s - CurSpc:15625000ns  BaseSpc:15625000ns  SyncToCmos:Yes
 ```
 
 ## Решение
@@ -24,6 +24,13 @@
 2. Запустите convert.bat. Результаты выполнения будут сохранены в следующие файлы:
    - `.\Log\W32Time.out.log`
    - `.\Log\W32Time.out.localclockoffset.log`
+
+Результат:
+```
+2018-03-20 06:28:50.9218750s - ---------- Log File Opened -----------------
+2018-03-20 06:28:50.9218750s - Entered W32TmServiceMain W2K3SP1
+2018-03-20 06:28:50.9218750s - CurSpc:15625000ns  BaseSpc:15625000ns  SyncToCmos:Yes
+```
 
 Во второй выходной файл сохраняются только строки (события), содержащие подстроку `LocalClockOffset`.
 
