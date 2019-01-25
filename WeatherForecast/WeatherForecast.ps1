@@ -5,7 +5,7 @@ $ScriptBaseName = (Get-ChildItem (Get-Variable MyInvocation).Value.MyCommand.Pat
 
 Function .\Save-URItoFile ($URI, $Path)
 {
-    $WebRequest = Invoke-WebRequest -Uri $URI -Proxy 'http://contoso.local:8080' -UseDefaultCredentials
+    $WebRequest = Invoke-WebRequest -Uri $URI -Proxy 'http://contoso.local:8080' -UseDefaultCredentials -ProxyUseDefaultCredentials
 
     Set-Content -Path $Path -Value $WebRequest.Content -Encoding Byte
 }
