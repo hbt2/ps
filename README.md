@@ -1,4 +1,4 @@
-## W32TimeDebugLogConvertEventDate
+## [W32TimeDebugLogConvertEventDate](tree/master/W32TimeDebugLogConvertEventDate)
 Преобразование даты записей событий журнала отладки службы времени Windows (W32Time) в читаемый вид.
 
 ## New-PronounceablePassword
