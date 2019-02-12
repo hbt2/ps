@@ -1,7 +1,7 @@
-## [W32TimeDebugLogConvertEventDate](tree/master/W32TimeDebugLogConvertEventDate)
+## [W32TimeDebugLogConvertEventDate](W32TimeDebugLogConvertEventDate)
 Преобразование даты записей событий журнала отладки службы времени Windows (W32Time) в читаемый вид.
 
-## New-PronounceablePassword
+## [New-PronounceablePassword](New-PronounceablePassword)
 Генерирование произносимых паролей.
 
 ```
@@ -13,7 +13,7 @@ gae7Uki
 wuceeH6
 ```
 
-## ConvertTo-LoginName
+## [ConvertTo-LoginName](ConvertTo-LoginName)
 Конвертирование ФИО в логин пользователя.
 
 ```
@@ -21,7 +21,7 @@ PS > ConvertTo-LoginName 'Щеглов Ярослав Юфимович'
 Scheglov.YY
 ```
 
-## WeatherForecast
+## [WeatherForecast](WeatherForecast)
 Загрузка прогнозов погоды с *www.foreca.com* и *www.yr.no* (загрузка PDF'ов, преобразование в изображения, объединение в один файл).
 
 Пример:
