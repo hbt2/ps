@@ -11,12 +11,13 @@ wuceeH6
 ```
 
 ## [ConvertTo-LoginName](ConvertTo-LoginName)
-Конвертирование ФИО в логин пользователя.
+Формирование логина пользователя по полному имени.
 
 ```
 PS > ConvertTo-LoginName 'Щеглов Ярослав Юфимович'
 Scheglov.YY
 ```
+TODO: Rename the cmdlet to 'New-LoginName -PersonalName PersonalName'
 
 ## [WeatherForecast](WeatherForecast)
 Загрузка прогнозов погоды с *www.foreca.com* и *www.yr.no* (загрузка PDF'ов, преобразование в изображения, объединение в один файл).
